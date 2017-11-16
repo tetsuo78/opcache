@@ -1,0 +1,6 @@
+
+
+opcache_index:
+    resource: "@OpcacheBundle/Controller/DefaultController.php"
+    type:     annotation
+    prefix:   /

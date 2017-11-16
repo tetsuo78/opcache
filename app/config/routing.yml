@@ -1,0 +1,4 @@
+opcache:
+    resource: "@OpcacheBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,68 @@
+OpcacheBundle\Entity\Opcache:
+    type: entity
+    table: null
+    repositoryClass: OpcacheBundle\Repository\OpcacheRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        pageTitle:
+            type: string
+            length: 255
+            column: PageTitle
+        statusDataRows:
+            type: string
+            length: 255
+            column: StatusDataRows
+        configDataRows:
+            type: string
+            length: 255
+            column: ConfigDataRows
+        scriptStatusRows:
+            type: string
+            length: 255
+            column: ScriptStatusRows
+        scriptStatusCount:
+            type: string
+            length: 255
+            column: ScriptStatusCount
+        graphDataSetJson:
+            type: string
+            length: 255
+            column: GraphDataSetJson
+        humanUsedMemory:
+            type: string
+            length: 255
+            column: HumanUsedMemory
+        humanFreeMemory:
+            type: string
+            length: 255
+            column: HumanFreeMemory
+        humanWastedMemory:
+            type: string
+            length: 255
+            column: HumanWastedMemory
+        usedMemory:
+            type: string
+            length: 255
+            column: UsedMemory
+        freeMemory:
+            type: string
+            length: 255
+            column: FreeMemory
+        wastedMemory:
+            type: string
+            length: 255
+            column: WastedMemory
+        wastedMemoryPercentage:
+            type: string
+            length: 255
+            column: WastedMemoryPercentage
+        d3Scripts:
+            type: string
+            length: 255
+            column: D3Scripts
+    lifecycleCallbacks: {  }
